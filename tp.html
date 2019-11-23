@@ -10,16 +10,16 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row text-center">
             <!-- HEADER -->
-            <header class="col-12">
-            <img src="./Asset/img/batlogo2.png" alt="logo">
-            <nav>
+            <header class="col-md-12">
+            <img src="./Asset/img/logo.png" alt="logo" class="logo">
+            <nav id="menu" >
                 <a href="#"></a>
                 <a href="#services">Nos Services</a>
-                <a href="# team">Notre Equipe</a>
-                <a href="port">Projet</a>
-                <a href="contact">Contactez nous!</a>
+                <a href="#team">Notre Equipe</a>
+                <a href="#port">Projet</a>
+                <a href="#contact">Contactez nous!</a>
             </nav>
             </header>
         </div>
@@ -42,7 +42,7 @@
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img src="./Asset/img/robin.png" class="d-block w-100" alt="...">
+                          <img src="./Asset/img/drobin.png" class="d-block w-100" alt="...">
                           <div class="carousel-caption d-none d-md-block">
                            
                           </div>
@@ -88,7 +88,7 @@
             </p>
         </div>
     </section>
-    <section>
+    <section id="team">
         <h1 class="col-md-12 text-center">Notre Equipe</h1>
         <div class="card-group">
                 <div class="card">
@@ -100,7 +100,7 @@
                   </div>
                 </div>
                 <div class="card">
-                  <img src="Asset/img/robin.png"" class="card-img-top" alt="...">
+                  <img src="Asset/img/drobin.png"" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Robin</h5>
                     <p class="card-text">Fils biologique de Batman. Entrainé pas La Ligue des Assassins ce jeune homme est aussi efficace qu'imprevisible.</p>
@@ -117,16 +117,16 @@
                 </div>
               </div>
     </section>
-    <section>
+    <section id="port">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6">
                 <h1 class="text-center">Nos Projets</h1>
                 <p>
                     Comme vous pouvez le constater sur la droite nos projets, notamment de mettre la raclure de Gotham derriere les barreaux, sont en cours de realisations et ne cesse de progresser.
                 </p>
             </div>
-            <div class="col-md-6">
-                <img src="./Asset/img/rogue.jpg" alt="mechant">
+            <div class="col-md-6 col-lg-6" id="mechant">
+                <img src="./Asset/img/rogue.jpg" alt="mechant" >
             </div>
     
         </div>
@@ -163,7 +163,13 @@
 
 
 
-    <footer></footer>
+    <footer class="col-md-12 text-center" id="foot">
+        <p>
+            <a href="https://www.legalplace.fr/guides/mentions-legales/">Mentions légales</a> <br>
+            &copy; Akzel 
+        </p>
+
+    </footer>
 </div>
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

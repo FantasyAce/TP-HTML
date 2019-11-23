@@ -1,3 +1,8 @@
+html{
+    scroll-behavior: smooth;
+    align-content: center;
+}
+
 body{
     background-color: lightgray;
 }
@@ -9,9 +14,34 @@ h5, p{
 
 #contact{
     border: black ridge 10px;
-    margin-top: 15px;
 }
+
 
 .nom{
     position: relative;
+}
+
+#foot>p {
+    background-color: black;
+    margin-top: 25px;
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+}
+#menu>a {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: black;
+}
+#mechant{
+    justify-content: right;
+}
+.carousel{
+    width: 400px;
+    margin: auto;
 }
