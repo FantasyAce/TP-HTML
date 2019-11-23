@@ -6,3 +6,12 @@ h5, p{
     color: black;
     
 }
+
+#contact{
+    border: black ridge 10px;
+    margin-top: 15px;
+}
+
+.nom{
+    position: relative;
+}
