@@ -39,7 +39,8 @@ header{
     background-color: black;
 }
 #mechant{
-    justify-content: right;
+    justify-content: center;
+    
 }
 .carousel{
     width: 400px;
